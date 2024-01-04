@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* Login & Register Page Styles */
+.login, .register {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.login form, .register form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.login input, .register input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login button, .register button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    padding: 20px;
+}
+
+/* QA & Resources Page Styles */
+.qa, .resources {
+    padding: 20px;
+}
+
+.qa form, .resources form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.qa input, .resources input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.qa button, .resources button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

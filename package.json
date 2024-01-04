@@ -1,0 +1,40 @@
+{
+  "name": "eduaid-ai-tutor",
+  "version": "1.0.0",
+  "description": "A web-based educational platform that employs OpenAI's GPT model to offer personalized tutoring and learning assistance.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/eduaid-ai-tutor.git"
+  },
+  "keywords": [
+    "education",
+    "tutoring",
+    "AI",
+    "OpenAI",
+    "GPT",
+    "personalized learning"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/eduaid-ai-tutor/issues"
+  },
+  "homepage": "https://github.com/yourusername/eduaid-ai-tutor#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "openai": "^0.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
